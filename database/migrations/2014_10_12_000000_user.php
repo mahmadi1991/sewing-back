@@ -26,7 +26,7 @@ class User extends Migration
             $table->string('mobile', 11)->nullable();
             $table->string('tellPhone', 20)->nullable();
             $table->string('nationalCode', 10)->nullable();
-            $table->string('birthDate', 10)->nullable();
+            $table->date('birthDate')->nullable();
             $table->string('email')->nullable();
             $table->string('avatar')->nullable();
             $table->text('description')->nullable();
