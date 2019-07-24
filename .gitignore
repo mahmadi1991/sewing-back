@@ -13,3 +13,4 @@ composer.lock
 /.idea
 .idea/sewing.iml
 *.xml
+.idea/workspace.xml
