@@ -40,3 +40,4 @@ class Size extends Migration
 		Schema::dropIfExists('size');
 	}
 }
+
